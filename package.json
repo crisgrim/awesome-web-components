@@ -1,0 +1,11 @@
+{
+  "name": "web-components-poc",
+  "version": "1.0.0",
+  "description": "A small proof of concept about Web Components",
+  "main": "index.js",
+  "author": "cristinagrim",
+  "license": "ISC",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.6"
+  }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Awesome - Web Components</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.webcomponents.org/assets/favicon-16x16.png" type="image/x-icon">
+  <script defer src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src='./awesome-wc/awesome-header.js'></script>
+  <script src='./awesome-wc/awesome-text.js'></script>
+  <script src='./awesome-wc/awesome-image.js'></script>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <awesome-header></awesome-header>
+
+  <section class="container">
+    <awesome-text>
+      <h1 slot="title">Awesome Dogs</h1>
+      <h2 slot="subtitle">with Web Components</h2>
+    </awesome-text>
+    <awesome-image></awesome-image>
+    <awesome-image query="dachshund"></awesome-image>
+    <awesome-image query="beagle"></awesome-image>
+  </section>
+</body>
+
+</html>
