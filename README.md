@@ -9,8 +9,8 @@ Install a dependency:
 
 Then in the folder:
 
-```npm install
-http-server```
+```npm install```
+```http-server```
 
 This is the API dogs:
 
