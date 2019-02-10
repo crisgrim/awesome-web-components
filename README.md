@@ -5,9 +5,13 @@ For the moment, to see the components you need:
 
 Install a dependency:
 
-npm install http-server -g
+```npm install http-server -g```
 
 Then in the folder:
 
-npm install
-http-server
+```npm install
+http-server```
+
+This is the API dogs:
+
+https://dog.ceo/dog-api/documentation/
